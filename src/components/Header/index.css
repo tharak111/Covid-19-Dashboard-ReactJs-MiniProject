@@ -1,0 +1,136 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #1e1e30;
+  margin: 0px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-container {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo-name {
+  font-family: 'Bree Serif';
+  font-weight: 400;
+  color: #f8fafc;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.highlight-logo {
+  font-weight: 500;
+  color: #3b82f6;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-name {
+    font-size: 20px;
+  }
+}
+
+.desktop-nav-links-container {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .desktop-nav-links-container {
+    display: block;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+  }
+}
+
+.nav-link-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.355556px;
+
+  /* Light / blue-gray / 400 */
+
+  color: #94a3b8;
+}
+
+.desktop-nav-link {
+  margin-left: 48px;
+}
+
+.mobile-nav-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-nav-button {
+    display: none;
+  }
+}
+
+.mobile-menu-image {
+  width: 24px;
+  height: 24px;
+}
+
+.mobile-menu-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: #161625;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-menu-list {
+    display: none;
+  }
+}
+
+.mobile-nav-link {
+  margin-right: 24px;
+}
+
+.mobile-close-btn-container {
+  margin-left: auto;
+}
+
+.close-icon-container {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.mobile-close-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.highlight-nav-link {
+  color: #f8fafc;
+}
